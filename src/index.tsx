@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorView from './ErrorView/ErrorView';
-import './Services/LocalizationService';
+import './LocalizationService';
 import HomeView from './HomeView/HomeView';
 import DonationView from './DonationView/DonationView';
 
