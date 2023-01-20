@@ -3,15 +3,37 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ErrorView from './ErrorView/ErrorView';
 import './Services/LocalizationService';
+import HomeView from './HomeView/HomeView';
+import DonationView from './DonationView/DonationView';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorView />,
+    children: [
+      {
+        index: true,
+        element: <HomeView />,
+      },
+      {
+        path: 'donate/:subview',
+        element: <DonationView />,
+      },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <App />
     <React.Suspense fallback="Loading...">
+      <RouterProvider router={router} />
     </React.Suspense>
   </React.StrictMode>,
 );
