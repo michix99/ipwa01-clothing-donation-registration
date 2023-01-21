@@ -3,5 +3,7 @@
   "donationPage": "Donation",
   "overviewPage": "Overview",
   "localStoreDonation": "Local Store",
-  "homeDonation": "@Home"
+  "homeDonation": "@Home",
+  "legalNotice": "Legal Notice",
+  "license": "License"
 }
