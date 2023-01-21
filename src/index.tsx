@@ -8,6 +8,8 @@ import ErrorView from './ErrorView/ErrorView';
 import './LocalizationService';
 import HomeView from './HomeView/HomeView';
 import DonationView from './DonationView/DonationView';
+import LegalNotice from './LegalNotice/LegalNotice';
+import License from './License/License';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: 'donate/:subview',
         element: <DonationView />,
+      },
+      {
+        path: 'legal',
+        element: <LegalNotice />,
+      },
+      {
+        path: 'license',
+        element: <License />,
       },
     ],
   },

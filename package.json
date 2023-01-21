@@ -30,7 +30,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint \"**/*.{ts,tsx}\"",
-    "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix"
+    "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "osa": "npx license-checker --production --relativeLicensePath --json --customPath customLicenseFormat.json --out src/assets/license.json"
   },
   "browserslist": {
     "production": [

@@ -3,5 +3,7 @@
   "donationPage": "Kleiderspende",
   "overviewPage": "Übersicht",
   "localStoreDonation": "Lokale Abgabe",
-  "homeDonation": "Abholung"
+  "homeDonation": "Abholung",
+  "legalNotice": "Impressum",
+  "license": "Lizenz"
 }
