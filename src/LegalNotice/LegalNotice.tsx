@@ -6,17 +6,17 @@ function LegalNotice() {
 
   return (
     <>
-      <h1>{t('header')}</h1>
+      <h1 className="mt-3">{t('header')}</h1>
       <p>{t('informationHeader')} § 5 TMG</p>
       <p>
-        Max Muster <br /> Musterweg
+        Sock Savior e. V. <br /> Musterweg
         <br /> 12345 Musterstadt <br />{' '}
       </p>
       <p>
         {' '}
         <strong>{t('responsibleHeader')}: </strong>
         <br />
-        Max Muster
+        Michaela Andermann
         <br />
       </p>
       <p>

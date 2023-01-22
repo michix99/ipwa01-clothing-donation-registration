@@ -26,11 +26,13 @@ function License() {
 
   return (
     <>
-      <h1>Open Source Assurance</h1>
-      <h4 className="fw-bold">Sock Savior {packageInfo.version}</h4>
+      <h1 className="mt-3">Open Source Assurance</h1>
+      <h4 className="fw-bold">Sock Savior v{packageInfo.version}</h4>
+      <div>MIT - &copy; Copyright 2023-present Michaela Andermann</div>
+      <hr className="hr" />
       <br />
       {libraries.map((e, index) => (
-        <div key={index}>
+        <div className="library-wrapper" key={index}>
           <h5>
             {e.name} {e.version}
           </h5>{' '}

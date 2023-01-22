@@ -1,3 +1,28 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
 #footer-wrapper {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+@include media-breakpoint-down(sm) {
+  .copyright-row {
+    justify-content: center;
+  }
+
+  #back-to-top {
+    bottom: 110px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #back-to-top {
+    bottom: 88px;
+  }
+}
+
+#back-to-top {
+  position: fixed;
+  right: 20px;
 }
