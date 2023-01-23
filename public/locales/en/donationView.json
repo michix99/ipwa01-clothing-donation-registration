@@ -1,0 +1,11 @@
+{
+  "overviewHeader": "Cloth donation",
+  "overviewText": "Start the donation by choosing on of the following options:",
+  "localDonationButton": "Donate @ Local Office",
+  "localDonationButtonTitle": "Donate cloth while at the Sock Savior office.",
+  "homeDonationButton": "Collect donation @ Home",
+  "homeDonationButtonTitle": "Your donation will be collected at your home.",
+  "helpPopoverHeader": "Help",
+  "localDonationExplanation": "Choose this option if you are in the Sock Savior office and you can register and hand over your cloth donation directly.",
+  "homeDonationExplanation": "Choose this option if your donation should be picked up at your home with by a Sock Savior collection truck."
+}

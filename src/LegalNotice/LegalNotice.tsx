@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './LegalNotice.scss';
 
 function LegalNotice() {
-  const { t } = useTranslation('legalNotice');
+  const { t, i18n } = useTranslation(['legalNotice', 'nav']);
+
+  useEffect(() => {
+    document.title = `Sock Savior - ${t('legalNotice', { ns: 'nav' })}`;
+  }, [i18n.language]);
 
   return (
     <>

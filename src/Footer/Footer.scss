@@ -1,3 +1,4 @@
+@use "sass:map";
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
@@ -10,9 +11,17 @@
   .copyright-row {
     justify-content: center;
   }
+}
 
+@media (min-width: 371px) and (max-width: map.get($grid-breakpoints, 'sm')) {
   #back-to-top {
-    bottom: 110px;
+    bottom: 95px;
+  }
+}
+
+@media (max-width: 370px) {
+  #back-to-top {
+      bottom: 135px;
   }
 }
 
@@ -24,5 +33,5 @@
 
 #back-to-top {
   position: fixed;
-  right: 20px;
+  right: 15px;
 }

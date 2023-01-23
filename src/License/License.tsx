@@ -1,6 +1,8 @@
 import './License.scss';
 import licenseInformation from '../assets/license.json';
 import packageInformation from '../../package.json';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface LibraryInformation {
   name: string;
@@ -17,12 +19,17 @@ interface PackageInformation {
 }
 
 function License() {
+  const { t, i18n } = useTranslation('nav');
   const licenses: Record<string, LibraryInformation> = licenseInformation;
   const packageInfo: PackageInformation = packageInformation;
 
   const libraries: LibraryInformation[] = Object.values(licenses).filter(
     (e) => e.licenses !== 'UNLICENSED',
   );
+
+  useEffect(() => {
+    document.title = `Sock Savior - ${t('license')}`;
+  }, [i18n.language]);
 
   return (
     <>

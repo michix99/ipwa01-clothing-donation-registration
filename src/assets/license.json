@@ -1747,6 +1747,129 @@
     "licenseFile": "node_modules\\@csstools\\selector-specificity\\LICENSE.md",
     "licenseText": "# CC0 1.0 Universal\n\n## Statement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator and\nsubsequent owner(s) (each and all, an “owner”) of an original work of\nauthorship and/or a database (each, a “Work”).\n\nCertain owners wish to permanently relinquish those rights to a Work for the\npurpose of contributing to a commons of creative, cultural and scientific works\n(“Commons”) that the public can reliably and without fear of later claims of\ninfringement build upon, modify, incorporate in other works, reuse and\nredistribute as freely as possible in any form whatsoever and for any purposes,\nincluding without limitation commercial purposes. These owners may contribute\nto the Commons to promote the ideal of a free culture and the further\nproduction of creative, cultural and scientific works, or to gain reputation or\ngreater distribution for their Work in part through the use and efforts of\nothers.\n\nFor these and/or other purposes and motivations, and without any expectation of\nadditional consideration or compensation, the person associating CC0 with a\nWork (the “Affirmer”), to the extent that he or she is an owner of Copyright\nand Related Rights in the Work, voluntarily elects to apply CC0 to the Work and\npublicly distribute the Work under its terms, with knowledge of his or her\nCopyright and Related Rights in the Work and the meaning and intended legal\neffect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\n   protected by copyright and related or neighboring rights (“Copyright and\n   Related Rights”). Copyright and Related Rights include, but are not limited\n   to, the following:\n   1. the right to reproduce, adapt, distribute, perform, display, communicate,\n      and translate a Work;\n   2. moral rights retained by the original author(s) and/or performer(s);\n   3. publicity and privacy rights pertaining to a person’s image or likeness\n      depicted in a Work;\n   4. rights protecting against unfair competition in regards to a Work,\n      subject to the limitations in paragraph 4(i), below;\n   5. rights protecting the extraction, dissemination, use and reuse of data in\n      a Work;\n   6. database rights (such as those arising under Directive 96/9/EC of the\n      European Parliament and of the Council of 11 March 1996 on the legal\n      protection of databases, and under any national implementation thereof,\n      including any amended or successor version of such directive); and\n   7. other similar, equivalent or corresponding rights throughout the world\n      based on applicable law or treaty, and any national implementations\n      thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention of,\n   applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and\n   unconditionally waives, abandons, and surrenders all of Affirmer’s Copyright\n   and Related Rights and associated claims and causes of action, whether now\n   known or unknown (including existing as well as future claims and causes of\n   action), in the Work (i) in all territories worldwide, (ii) for the maximum\n   duration provided by applicable law or treaty (including future time\n   extensions), (iii) in any current or future medium and for any number of\n   copies, and (iv) for any purpose whatsoever, including without limitation\n   commercial, advertising or promotional purposes (the “Waiver”). Affirmer\n   makes the Waiver for the benefit of each member of the public at large and\n   to the detriment of Affirmer’s heirs and successors, fully intending that\n   such Waiver shall not be subject to revocation, rescission, cancellation,\n   termination, or any other legal or equitable action to disrupt the quiet\n   enjoyment of the Work by the public as contemplated by Affirmer’s express\n   Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason be\n   judged legally invalid or ineffective under applicable law, then the Waiver\n   shall be preserved to the maximum extent permitted taking into account\n   Affirmer’s express Statement of Purpose. In addition, to the extent the\n   Waiver is so judged Affirmer hereby grants to each affected person a\n   royalty-free, non transferable, non sublicensable, non exclusive,\n   irrevocable and unconditional license to exercise Affirmer’s Copyright and\n   Related Rights in the Work (i) in all territories worldwide, (ii) for the\n   maximum duration provided by applicable law or treaty (including future time\n   extensions), (iii) in any current or future medium and for any number of\n   copies, and (iv) for any purpose whatsoever, including without limitation\n   commercial, advertising or promotional purposes (the “License”). The License\n   shall be deemed effective as of the date CC0 was applied by Affirmer to the\n   Work. Should any part of the License for any reason be judged legally\n   invalid or ineffective under applicable law, such partial invalidity or\n   ineffectiveness shall not invalidate the remainder of the License, and in\n   such case Affirmer hereby affirms that he or she will not (i) exercise any\n   of his or her remaining Copyright and Related Rights in the Work or (ii)\n   assert any associated claims and causes of action with respect to the Work,\n   in either case contrary to Affirmer’s express Statement of Purpose.\n\n4. Limitations and Disclaimers.\n   1. No trademark or patent rights held by Affirmer are waived, abandoned,\n      surrendered, licensed or otherwise affected by this document.\n   2. Affirmer offers the Work as-is and makes no representations or warranties\n      of any kind concerning the Work, express, implied, statutory or\n      otherwise, including without limitation warranties of title,\n      merchantability, fitness for a particular purpose, non infringement, or\n      the absence of latent or other defects, accuracy, or the present or\n      absence of errors, whether or not discoverable, all to the greatest\n      extent permissible under applicable law.\n   3. Affirmer disclaims responsibility for clearing rights of other persons\n      that may apply to the Work or any use thereof, including without\n      limitation any person’s Copyright and Related Rights in the Work.\n      Further, Affirmer disclaims responsibility for obtaining any necessary\n      consents, permissions or other rights required for any use of the Work.\n   4. Affirmer understands and acknowledges that Creative Commons is not a\n      party to this document and has no duty or obligation with respect to this\n      CC0 or use of the Work.\n\nFor more information, please see\nhttp://creativecommons.org/publicdomain/zero/1.0/."
   },
+  "@emotion/babel-plugin@11.10.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/babel-plugin",
+    "publisher": "Kye Hohenberger",
+    "name": "@emotion/babel-plugin",
+    "version": "11.10.5",
+    "description": "A recommended babel preprocessing plugin for emotion, The Next Generation of CSS-in-JS.",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\babel-plugin",
+    "licenseFile": "node_modules\\@emotion\\babel-plugin\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/cache@11.10.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/cache",
+    "name": "@emotion/cache",
+    "version": "11.10.5",
+    "description": "emotion's cache",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\cache",
+    "licenseFile": "node_modules\\@emotion\\cache\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/hash@0.9.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/hash",
+    "name": "@emotion/hash",
+    "version": "0.9.0",
+    "description": "A MurmurHash2 implementation",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\hash",
+    "licenseFile": "node_modules\\@emotion\\hash\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/memoize@0.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/memoize",
+    "name": "@emotion/memoize",
+    "version": "0.8.0",
+    "description": "emotion's memoize utility",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\memoize",
+    "licenseFile": "node_modules\\@emotion\\memoize\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/react@11.10.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/react",
+    "publisher": "Emotion Contributors",
+    "name": "@emotion/react",
+    "version": "11.10.5",
+    "description": "> Simple styling in React.",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\react",
+    "licenseFile": "node_modules\\@emotion\\react\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/serialize@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/serialize",
+    "name": "@emotion/serialize",
+    "version": "1.1.1",
+    "description": "serialization utils for emotion",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\serialize",
+    "licenseFile": "node_modules\\@emotion\\serialize\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/sheet@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/sheet",
+    "name": "@emotion/sheet",
+    "version": "1.2.1",
+    "description": "emotion's stylesheet",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\sheet",
+    "licenseFile": "node_modules\\@emotion\\sheet\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/unitless@0.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/unitless",
+    "name": "@emotion/unitless",
+    "version": "0.8.0",
+    "description": "An object of css properties that don't accept values with units",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\unitless",
+    "licenseFile": "node_modules\\@emotion\\unitless\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/use-insertion-effect-with-fallbacks@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/use-insertion-effect-with-fallbacks",
+    "name": "@emotion/use-insertion-effect-with-fallbacks",
+    "version": "1.0.0",
+    "description": "A wrapper package that uses `useInsertionEffect` or a fallback for it",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\use-insertion-effect-with-fallbacks",
+    "licenseFile": "node_modules\\@emotion\\use-insertion-effect-with-fallbacks\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/utils@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/utils",
+    "name": "@emotion/utils",
+    "version": "1.2.0",
+    "description": "internal utils for emotion",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\utils",
+    "licenseFile": "node_modules\\@emotion\\utils\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
+  "@emotion/weak-memoize@0.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/main/packages/weak-memoize",
+    "name": "@emotion/weak-memoize",
+    "version": "0.3.0",
+    "description": "A memoization function that uses a WeakMap",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\weak-memoize",
+    "licenseFile": "node_modules\\@emotion\\weak-memoize\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Emotion team and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Emotion team and other contributors"
+  },
   "@eslint/eslintrc@1.4.1": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslintrc",
@@ -1758,6 +1881,30 @@
     "licenseFile": "node_modules\\@eslint\\eslintrc\\LICENSE",
     "licenseText": "Copyright OpenJS Foundation and other contributors, <www.openjsf.org>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
     "copyright": "Copyright OpenJS Foundation and other contributors, <www.openjsf.org>"
+  },
+  "@floating-ui/core@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "name": "@floating-ui/core",
+    "version": "1.1.0",
+    "description": "Positioning library for floating elements: tooltips, popovers, dropdowns, and more",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@floating-ui\\core",
+    "licenseFile": "node_modules\\@floating-ui\\core\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) 2021 Floating UI contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) 2021 Floating UI contributors"
+  },
+  "@floating-ui/dom@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "name": "@floating-ui/dom",
+    "version": "1.1.0",
+    "description": "Floating UI for the web",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@floating-ui\\dom",
+    "licenseFile": "node_modules\\@floating-ui\\dom\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) 2021 Floating UI contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) 2021 Floating UI contributors"
   },
   "@humanwhocodes/config-array@0.11.8": {
     "licenses": "Apache-2.0",
@@ -6972,6 +7119,18 @@
     "licenseText": "MIT License\n\nCopyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
     "copyright": "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)"
   },
+  "find-root@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/js-n/find-root",
+    "publisher": "jsdnxx",
+    "name": "find-root",
+    "version": "1.1.0",
+    "description": "find the closest package.json",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\find-root",
+    "licenseFile": "node_modules\\find-root\\LICENSE.md",
+    "licenseText": "Copyright © 2017 jsdnxx\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "copyright": "Copyright © 2017 jsdnxx"
+  },
   "find-up@3.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/find-up",
@@ -7640,6 +7799,19 @@
     "licenseFile": "node_modules\\he\\LICENSE-MIT.txt",
     "licenseText": "Copyright Mathias Bynens <https://mathiasbynens.be/>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
     "copyright": "Copyright Mathias Bynens <https://mathiasbynens.be/>"
+  },
+  "hoist-non-react-statics@3.3.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mridgway/hoist-non-react-statics",
+    "publisher": "Michael Ridgway",
+    "email": "mcridgway@gmail.com",
+    "name": "hoist-non-react-statics",
+    "version": "3.3.2",
+    "description": "Copies non-react specific statics from a child component to a parent component",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\hoist-non-react-statics",
+    "licenseFile": "node_modules\\hoist-non-react-statics\\LICENSE.md",
+    "licenseText": "Software License Agreement (BSD License)\n========================================\n\nCopyright (c) 2015, Yahoo! Inc. All rights reserved.\n----------------------------------------------------\n\nRedistribution and use of this software in source and binary forms, with or\nwithout modification, are permitted provided that the following conditions are\nmet:\n\n  * Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n  * Redistributions in binary form must reproduce the above copyright notice,\n    this list of conditions and the following disclaimer in the documentation\n    and/or other materials provided with the distribution.\n  * Neither the name of Yahoo! Inc. nor the names of YUI's contributors may be\n    used to endorse or promote products derived from this software without\n    specific prior written permission of Yahoo! Inc.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "copyright": "Copyright (c) 2015, Yahoo! Inc. All rights reserved.. ----------------------------------------------------"
   },
   "hoopy@0.1.4": {
     "licenses": "MIT",
@@ -9902,6 +10074,19 @@
     "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\memfs",
     "licenseFile": "node_modules\\memfs\\LICENSE",
     "licenseText": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <https://unlicense.org>"
+  },
+  "memoize-one@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexreardon/memoize-one",
+    "publisher": "Alex Reardon",
+    "email": "alexreardon@gmail.com",
+    "name": "memoize-one",
+    "version": "6.0.0",
+    "description": "A memoization library which only remembers the latest invocation",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\memoize-one",
+    "licenseFile": "node_modules\\memoize-one\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) 2019 Alexander Reardon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) 2019 Alexander Reardon"
   },
   "merge-descriptors@1.0.1": {
     "licenses": "MIT",
@@ -12405,6 +12590,17 @@
     "licenseText": "MIT License\n\nCopyright (c) 2013-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "copyright": "Copyright (c) 2013-present, Facebook, Inc."
   },
+  "react-select@5.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JedWatson/react-select/tree/master/packages/react-select",
+    "publisher": "Jed Watson",
+    "name": "react-select",
+    "version": "5.7.0",
+    "description": "A Select control built with and for ReactJS",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\react-select",
+    "licenseFile": "node_modules\\react-select\\README.md",
+    "licenseText": "[![NPM](https://img.shields.io/npm/v/react-select.svg)](https://www.npmjs.com/package/react-select)\n[![CircleCI](https://circleci.com/gh/JedWatson/react-select/tree/master.svg?style=shield)](https://circleci.com/gh/JedWatson/react-select/tree/master)\n[![Coverage Status](https://coveralls.io/repos/JedWatson/react-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/JedWatson/react-select?branch=master)\n[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-select)\n\n# React-Select\n\nThe Select control for [React](https://reactjs.com). Initially built for use in [KeystoneJS](http://www.keystonejs.com).\n\nSee [react-select.com](https://www.react-select.com) for live demos and comprehensive docs.\n\nReact Select is funded by [Thinkmill](https://www.thinkmill.com.au) and [Atlassian](https://atlaskit.atlassian.com). It represents a whole new approach to developing powerful React.js components that _just work_ out of the box, while being extremely customisable.\n\nFor the story behind this component, watch Jed's talk at React Conf 2019 - [building React Select](https://youtu.be/yS0jUnmBujE)\n\nFeatures include:\n\n- Flexible approach to data, with customisable functions\n- Extensible styling API with [emotion](https://emotion.sh)\n- Component Injection API for complete control over the UI behaviour\n- Controllable state props and modular architecture\n- Long-requested features like option groups, portal support, animation, and more\n\n## Using an older version?\n\n- [v3, v4, and v5 upgrade guide](https://react-select.com/upgrade)\n- [v2 upgrade guide](https://react-select.com/upgrade-to-v2)\n- React Select v1 documentation and examples are available at [v1.react-select.com](https://v1.react-select.com)\n\n# Installation and usage\n\nThe easiest way to use react-select is to install it from npm and build it into your app with Webpack.\n\n```\nyarn add react-select\n```\n\nThen use it in your app:\n\n#### With React Component\n\n```js\nimport React from 'react';\nimport Select from 'react-select';\n\nconst options = [\n  { value: 'chocolate', label: 'Chocolate' },\n  { value: 'strawberry', label: 'Strawberry' },\n  { value: 'vanilla', label: 'Vanilla' },\n];\n\nclass App extends React.Component {\n  state = {\n    selectedOption: null,\n  };\n  handleChange = (selectedOption) => {\n    this.setState({ selectedOption }, () =>\n      console.log(`Option selected:`, this.state.selectedOption)\n    );\n  };\n  render() {\n    const { selectedOption } = this.state;\n\n    return (\n      <Select\n        value={selectedOption}\n        onChange={this.handleChange}\n        options={options}\n      />\n    );\n  }\n}\n```\n\n#### With React Hooks\n\n```js\nimport React, { useState } from 'react';\nimport Select from 'react-select';\n\nconst options = [\n  { value: 'chocolate', label: 'Chocolate' },\n  { value: 'strawberry', label: 'Strawberry' },\n  { value: 'vanilla', label: 'Vanilla' },\n];\n\nexport default function App() {\n  const [selectedOption, setSelectedOption] = useState(null);\n\n  return (\n    <div className=\"App\">\n      <Select\n        defaultValue={selectedOption}\n        onChange={setSelectedOption}\n        options={options}\n      />\n    </div>\n  );\n}\n```\n\n## Props\n\nCommon props you may want to specify include:\n\n- `autoFocus` - focus the control when it mounts\n- `className` - apply a className to the control\n- `classNamePrefix` - apply classNames to inner elements with the given prefix\n- `isDisabled` - disable the control\n- `isMulti` - allow the user to select multiple values\n- `isSearchable` - allow the user to search for matching options\n- `name` - generate an HTML input with this name, containing the current value\n- `onChange` - subscribe to change events\n- `options` - specify the options the user can select from\n- `placeholder` - change the text displayed when no option is selected\n- `noOptionsMessage` - ({ inputValue: string }) => string | null - Text to display when there are no options\n- `value` - control the current value\n\nSee the [props documentation](https://www.react-select.com/props) for complete documentation on the props react-select supports.\n\n## Controllable Props\n\nYou can control the following props by providing values for them. If you don't, react-select will manage them for you.\n\n- `value` / `onChange` - specify the current value of the control\n- `menuIsOpen` / `onMenuOpen` / `onMenuClose` - control whether the menu is open\n- `inputValue` / `onInputChange` - control the value of the search input (changing this will update the available options)\n\nIf you don't provide these props, you can set the initial value of the state they control:\n\n- `defaultValue` - set the initial value of the control\n- `defaultMenuIsOpen` - set the initial open value of the menu\n- `defaultInputValue` - set the initial value of the search input\n\n## Methods\n\nReact-select exposes two public methods:\n\n- `focus()` - focus the control programmatically\n- `blur()` - blur the control programmatically\n\n## Customisation\n\nCheck the docs for more information on:\n\n- [Customising the styles](https://www.react-select.com/styles)\n- [Using custom components](https://www.react-select.com/components)\n- [Using the built-in animated components](https://www.react-select.com/home#animated-components)\n- [Creating an async select](https://www.react-select.com/async)\n- [Allowing users to create new options](https://www.react-select.com/creatable)\n- [Advanced use-cases](https://www.react-select.com/advanced)\n- [TypeScript guide](https://www.react-select.com/typescript)\n\n## TypeScript\n\nThe v5 release represents a rewrite from JavaScript to TypeScript. The types for v4 and earlier releases are available at [@types](https://www.npmjs.com/package/@types/react-select). See the [TypeScript guide](https://www.react-select.com/typescript) for how to use the types starting with v5.\n\n# Thanks\n\nThank you to everyone who has contributed to this project. It's been a wild ride.\n\nIf you like React Select, you should [follow me on twitter](https://twitter.com/jedwatson)!\n\nShout out to [Joss Mackison](https://github.com/jossmac), [Charles Lee](https://github.com/gwyneplaine), [Ben Conolly](https://github.com/Noviny), [Tom Walker](https://github.com/bladey), [Nathan Bierema](https://github.com/Methuselah96), [Eric Bonow](https://github.com/ebonow), [Mitchell Hamilton](https://github.com/mitchellhamilton), [Dave Brotherstone](https://github.com/bruderstein), [Brian Vaughn](https://github.com/bvaughn), and the [Atlassian Design System](https://atlassian.design) team who along with many other contributors have made this possible ❤️\n\n## License\n\nMIT Licensed. Copyright (c) Jed Watson 2022."
+  },
   "react-transition-group@4.4.5": {
     "licenses": "BSD-3-Clause",
     "repository": "https://github.com/reactjs/react-transition-group",
@@ -13365,6 +13561,18 @@
     "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2014 Evan Wallace\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "copyright": "Copyright (c) 2014 Evan Wallace"
   },
+  "source-map@0.5.7": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mozilla/source-map",
+    "publisher": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com",
+    "name": "source-map",
+    "version": "0.5.7",
+    "description": "Generates and consumes source maps",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\@emotion\\babel-plugin\\node_modules\\source-map",
+    "licenseFile": "node_modules\\@emotion\\babel-plugin\\node_modules\\source-map\\LICENSE",
+    "licenseText": "Copyright (c) 2009-2011, Mozilla Foundation and contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the names of the Mozilla Foundation nor the names of project\n  contributors may be used to endorse or promote products derived from this\n  software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
   "source-map@0.6.1": {
     "licenses": "BSD-3-Clause",
     "repository": "https://github.com/mozilla/source-map",
@@ -13790,6 +13998,19 @@
     "licenseFile": "node_modules\\stylehacks\\LICENSE-MIT",
     "licenseText": "Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info)\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.",
     "copyright": "Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info)"
+  },
+  "stylis@4.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thysultan/stylis.js",
+    "publisher": "Sultan Tarimo",
+    "email": "sultantarimo@me.com",
+    "name": "stylis",
+    "version": "4.1.3",
+    "description": "A Light–weight CSS Preprocessor",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\stylis",
+    "licenseFile": "node_modules\\stylis\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) 2016-present Sultan Tarimo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) 2016-present Sultan Tarimo"
   },
   "supports-color@5.5.0": {
     "licenses": "MIT",
@@ -14555,6 +14776,17 @@
     "licenseFile": "node_modules\\url-parse\\LICENSE",
     "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Unshift.io, Arnout Kazemier,  the Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
     "copyright": "Copyright (c) 2015 Unshift.io, Arnout Kazemier,  the Contributors."
+  },
+  "use-isomorphic-layout-effect@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Andarist/use-isomorphic-layout-effect",
+    "name": "use-isomorphic-layout-effect",
+    "version": "1.1.2",
+    "description": "A React helper hook for scheduling a layout effect with a fallback to a regular effect for environments where layout effects should not be used (such as server-side rendering).",
+    "path": "C:\\Users\\micha\\Repos\\ipwa01-clothing-donation-registration\\node_modules\\use-isomorphic-layout-effect",
+    "licenseFile": "node_modules\\use-isomorphic-layout-effect\\LICENSE",
+    "licenseText": "MIT License\n\nCopyright (c) Mateusz Burzyński\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "copyright": "Copyright (c) Mateusz Burzyński"
   },
   "util-deprecate@1.0.2": {
     "licenses": "MIT",

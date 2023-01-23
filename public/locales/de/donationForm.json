@@ -1,0 +1,19 @@
+{
+  "selectionCrisisArea": "An welches Krisengebiet soll gespendet werden?",
+  "crisisAreas": [ "Krisengebiet 1", "Krisengebiet 2", "Krisengebiet 3"],
+  "selectionCloth": "Art der Kleidung die gespendet werden soll:",
+  "clothCategories": ["Röcke",  "Kleider", "Jacken und Mäntel", "Shirts", "Tops", "Pullover", "Blusen und Hemden", "Hosen", "Shorts", "Overalls", "Schlafanzüge und Homewear", "Socken", "Schuhe", "Schals und Tücher", "Sonstiges"],
+  "firstNameHeader": "Vorname",
+  "firstNamePlaceholder": "Vorname",
+  "lastNameHeader": "Nachname",
+  "lastNamePlaceholder": "Nachname",
+  "addressHeader": "Adresse",
+  "adressPlaceholder": "Füge deine Straße ein",
+  "houseNumberHeader": "Haus-NR.",
+  "houseNumberPlaceholder": "Haus-NR.",
+  "postcodeHeader": "Postleitzahl",
+  "postcodePlaceholder": "Füge deine Postleitzahl ein",
+  "cityHeader": "Ort",
+  "cityPlaceholder": "Füge deinen Ort ein",
+  "submitButton": "Senden"
+}

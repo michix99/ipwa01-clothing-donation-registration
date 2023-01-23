@@ -1,0 +1,11 @@
+{
+  "overviewHeader": "Kleiderspende",
+  "overviewText": "Starte die Kleiderspende, indem du einer der folgenden Optionen wählst:",
+  "localDonationButton": "Übergabe an der Geschäftsstelle",
+  "localDonationButtonTitle": "Spende Klamotten direkt in der Sock Savior Geschäftsstelle.",
+  "homeDonationButton": "Abholung",
+  "homeDonationButtonTitle": "Lasse deine Kleiderspende bei dir zuhause abholen.",
+  "helpPopoverHeader": "Hilfe",
+  "localDonationExplanation": "Wähle diese Option, wenn du dich in der Sock Savior Geschäftsstelle befindest und deine Kleiderspende direkt abgeben und registrieren kannst.",
+  "homeDonationExplanation": "Wähle diese Option, wenn du deine Spende von einem Sammelfahrzeug des Sock Savior Vereins abholen lassen möchtest."
+}
