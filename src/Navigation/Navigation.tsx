@@ -4,6 +4,7 @@ import logo from '../assets/Logo_with_Green_Patches_final.svg';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import DonationSubPages from '../models/DonationSubPages';
 
 function Navigation() {
   const { t, i18n } = useTranslation('nav');
@@ -34,14 +35,23 @@ function Navigation() {
               {t('homePage')}
             </Nav.Link>
             <NavDropdown menuVariant="dark" title={t('donationPage')}>
-              <NavDropdown.Item as={Link} to="/donate/overview">
+              <NavDropdown.Item
+                as={Link}
+                to={`/donate/${DonationSubPages.Overview}`}
+              >
                 {t('overviewPage')}
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/donate/local">
+              <NavDropdown.Item
+                as={Link}
+                to={`/donate/${DonationSubPages.Local}`}
+              >
                 {t('localStoreDonation')}
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/donate/fromHome">
+              <NavDropdown.Item
+                as={Link}
+                to={`/donate/${DonationSubPages.FromHome}`}
+              >
                 {t('homeDonation')}
               </NavDropdown.Item>
             </NavDropdown>

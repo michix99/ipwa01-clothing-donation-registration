@@ -33,12 +33,13 @@ function Footer() {
       <Button
         variant="success"
         type="button"
-        className="btn-floating btn-lg"
+        className="btn-floating"
         id="back-to-top"
         style={{
           display: topButtonDisplayed,
         }}
         onClick={backtoTop}
+        title="Back to top."
       >
         <ArrowUp />
       </Button>
@@ -79,12 +80,12 @@ function Footer() {
             </Row>
             <Row>
               <Col xl={5} lg={4} md={4} sm={3} xs={2}></Col>
-              <Col xl lg md sm xs>
+              <Col xl="auto" lg md sm xs>
                 <Link className="text-reset" to="legal">
                   {t('legalNotice')}
                 </Link>
               </Col>
-              <Col xl lg md sm xs>
+              <Col xl="auto" lg md sm xs>
                 <Link className="text-reset" to="license">
                   {t('license')}
                 </Link>

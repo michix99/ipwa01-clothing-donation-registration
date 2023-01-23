@@ -1,0 +1,19 @@
+{
+  "selectionCrisisArea": "To which crisis area should the cloth be donated?",
+  "crisisAreas": [ "Crisis Area 1", "Crisis Area 2", "Crisis Area 3"],
+  "selectionCloth": "Choose which kind of cloth you want to donate:",
+  "clothCategories": ["Skirts",  "Dresses", "Jackets and Coats", "T-Shirts", "Tops", "Sweater", "Blouses and Shirts", "Trousers", "Shorts", "Overalls", "Pajamas and Lounge wear", "Socks", "Shoes", "Scarves and Shawls", "Other"],
+  "firstNameHeader": "First name",
+  "firstNamePlaceholder": "Enter your first name",
+  "lastNameHeader": "Last name",
+  "lastNamePlaceholder": "Enter your last name",
+  "addressHeader": "Address",
+  "adressPlaceholder": "Enter your street name",
+  "houseNumberHeader": "House number",
+  "houseNumberPlaceholder": "House number",
+  "postcodeHeader": "Postcode",
+  "postcodePlaceholder": "Enter your Postcode",
+  "cityHeader": "City",
+  "cityPlaceholder": "Enter your City",
+  "submitButton": "Submit"
+}
