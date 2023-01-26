@@ -19,5 +19,6 @@
   "cityHeader": "Ort",
   "cityPlaceholder": "Füge deinen Ort ein",
   "addressInvalid": "Bitte wähle eine Abholadresse in der Nähe der Geschäftsstelle:",
-  "submitButton": "Senden"
+  "submitButton": "Senden",
+  "isRequiredText": "Angabe ist erforderlich."
 }

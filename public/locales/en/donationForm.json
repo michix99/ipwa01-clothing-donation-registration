@@ -19,5 +19,6 @@
   "cityHeader": "City",
   "cityPlaceholder": "Enter your City",
   "addressInvalid": "Please choose an address to collect the cloth nearby the Sock Savior office:",
-  "submitButton": "Submit"
+  "submitButton": "Submit",
+  "isRequiredText": "Input is required."
 }
