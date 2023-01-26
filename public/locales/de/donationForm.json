@@ -3,6 +3,8 @@
   "crisisAreas": [ "Krisengebiet 1", "Krisengebiet 2", "Krisengebiet 3"],
   "selectionCloth": "Art der Kleidung die gespendet werden soll:",
   "clothCategories": ["Röcke",  "Kleider", "Jacken und Mäntel", "Shirts", "Tops", "Pullover", "Blusen und Hemden", "Hosen", "Shorts", "Overalls", "Schlafanzüge und Homewear", "Socken", "Schuhe", "Schals und Tücher", "Sonstiges"],
+  "clothCategoriesInvalid": "Bitte wähle mindestens eine Kleiderkategorie.",
+  "addressDisclaimer": "Zur Abholung der Kleidung benötigen wir deine Adresse:",
   "firstNameHeader": "Vorname",
   "firstNamePlaceholder": "Vorname",
   "lastNameHeader": "Nachname",
@@ -13,7 +15,9 @@
   "houseNumberPlaceholder": "Haus-NR.",
   "postcodeHeader": "Postleitzahl",
   "postcodePlaceholder": "Füge deine Postleitzahl ein",
+  "postcodeInvalid": "Bitte gib eine gültige Postleitzahl an.",
   "cityHeader": "Ort",
   "cityPlaceholder": "Füge deinen Ort ein",
+  "addressInvalid": "Bitte wähle eine Abholadresse in der Nähe der Geschäftsstelle:",
   "submitButton": "Senden"
 }
