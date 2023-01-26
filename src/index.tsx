@@ -4,12 +4,12 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorView from './ErrorView/ErrorView';
-import './LocalizationService';
-import HomeView from './HomeView/HomeView';
-import DonationView from './DonationView/DonationView';
-import LegalNotice from './LegalNotice/LegalNotice';
-import License from './License/License';
+import ErrorView from './components/ErrorView/ErrorView';
+import './services/LocalizationService';
+import HomeView from './components/HomeView/HomeView';
+import DonationView from './components/DonationView/DonationView';
+import LegalNotice from './components/LegalNotice/LegalNotice';
+import License from './components/License/License';
 
 const router = createBrowserRouter([
   {

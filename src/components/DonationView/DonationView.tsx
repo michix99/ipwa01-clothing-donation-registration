@@ -10,7 +10,7 @@ import {
 import { QuestionCircle } from 'react-bootstrap-icons';
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
-import DonationSubPages from '../models/DonationSubPages';
+import DonationSubPages from '../../models/DonationSubPages';
 import DonationForm from './DonationForm/DonationForm';
 import './DonationView.scss';
 

@@ -1,6 +1,6 @@
 import './License.scss';
-import licenseInformation from '../assets/license.json';
-import packageInformation from '../../package.json';
+import licenseInformation from '../../assets/license.json';
+import packageInformation from '../../../package.json';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 

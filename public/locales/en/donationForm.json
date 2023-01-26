@@ -3,6 +3,8 @@
   "crisisAreas": [ "Crisis Area 1", "Crisis Area 2", "Crisis Area 3"],
   "selectionCloth": "Choose which kind of cloth you want to donate:",
   "clothCategories": ["Skirts",  "Dresses", "Jackets and Coats", "T-Shirts", "Tops", "Sweater", "Blouses and Shirts", "Trousers", "Shorts", "Overalls", "Pajamas and Lounge wear", "Socks", "Shoes", "Scarves and Shawls", "Other"],
+  "clothCategoriesInvalid": "Please choose one or more cloth categories.",
+  "addressDisclaimer": "For collecting the cloth we need your address:",
   "firstNameHeader": "First name",
   "firstNamePlaceholder": "Enter your first name",
   "lastNameHeader": "Last name",
@@ -13,7 +15,10 @@
   "houseNumberPlaceholder": "House number",
   "postcodeHeader": "Postcode",
   "postcodePlaceholder": "Enter your Postcode",
+  "postcodeInvalid": "Please provide a valid postcode.",
   "cityHeader": "City",
   "cityPlaceholder": "Enter your City",
-  "submitButton": "Submit"
+  "addressInvalid": "Please choose an address to collect the cloth nearby the Sock Savior office:",
+  "submitButton": "Submit",
+  "isRequiredText": "Input is required."
 }

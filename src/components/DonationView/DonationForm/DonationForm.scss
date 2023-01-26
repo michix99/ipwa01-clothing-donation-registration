@@ -1,0 +1,18 @@
+.form {
+  text-align: left;
+}
+
+.submit {
+  background-color: #497b64;
+}
+
+.multi-select {
+  border-radius: 0.375rem;
+
+  &.invalid {
+    border: 1px solid #dc3545;
+    &:focus {
+      box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25);
+    }
+  }
+}
