@@ -1,6 +1,6 @@
 {
   "selectionCrisisArea": "An welches Krisengebiet soll gespendet werden?",
-  "crisisAreas": [ "Krisengebiet 1", "Krisengebiet 2", "Krisengebiet 3"],
+  "crisisAreas": [ "Afghanistan", "Belarus", "Haiti",  "Irak", "Jemen", "Libyen", "Pakistan", "Somalia", "Südsudan", "Syrien", "Ukraine", "Zentralafrika"],
   "selectionCloth": "Art der Kleidung die gespendet werden soll:",
   "clothCategories": ["Röcke",  "Kleider", "Jacken und Mäntel", "Shirts", "Tops", "Pullover", "Blusen und Hemden", "Hosen", "Shorts", "Overalls", "Schlafanzüge und Homewear", "Socken", "Schuhe", "Schals und Tücher", "Sonstiges"],
   "clothCategoriesInvalid": "Bitte wähle mindestens eine Kleiderkategorie.",

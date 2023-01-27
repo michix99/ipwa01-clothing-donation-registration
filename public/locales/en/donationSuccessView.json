@@ -1,0 +1,13 @@
+{
+  "congratulation": "Congratulations!",
+  "successMessage": "You successfully donated cloths to Sock Savior e. V.!",
+  "summaryHeader": "Summary",
+  "crisisAreaHeader": "Selected crisis area",
+  "clothCathegoriesHeader": "Kind of cloth",
+  "addressheader": "Address to collect",
+  "whereDonatedHeader": "Selected donation type",
+  "localDonation": "Local Office",
+  "homeDonation": "Pickup from home",
+  "submitDateHeader": "Submitted at",
+  "backButton": "Back to Overview"
+}
