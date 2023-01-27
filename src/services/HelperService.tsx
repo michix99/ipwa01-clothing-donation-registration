@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { BaseSchema } from 'yup';
 import { DonationData, FromHomeDonationData } from '../models';
 
@@ -24,6 +26,19 @@ const HelperService = {
       });
     }
     return errorData;
+  },
+
+  scrollToTopAfterNavigation: function () {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      document.documentElement.scrollTo({
+        top: 0,
+        left: 0,
+      });
+    }, [pathname]);
+
+    return null;
   },
 };
 

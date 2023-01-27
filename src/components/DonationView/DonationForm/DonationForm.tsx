@@ -16,6 +16,7 @@ import {
 } from '../../../models';
 import FromHomeDonationControls from './FromHomeDonationControls/FromHomeDonationControls';
 import HelperService from '../../../services/HelperService';
+import DonationSuccessView from './DonationSuccessView/DonationSuccessView';
 
 function DonationForm(props: { isCollected: boolean }) {
   const { t, i18n } = useTranslation(['donationForm', 'donationView']);
@@ -133,6 +134,8 @@ function DonationForm(props: { isCollected: boolean }) {
           ? t('homeDonationButton', { ns: 'donationView' })
           : t('localDonationButton', { ns: 'donationView' })}
       </h4>
+
+      {!formValid ? (
         <Form
           noValidate
           validated={formValid}
@@ -198,6 +201,9 @@ function DonationForm(props: { isCollected: boolean }) {
             {t('submitButton')}
           </Button>
         </Form>
+      ) : (
+        <DonationSuccessView formData={formData} />
+      )}
     </>
   );
 }

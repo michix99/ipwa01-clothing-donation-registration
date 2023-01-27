@@ -1,6 +1,6 @@
 {
   "selectionCrisisArea": "To which crisis area should the cloth be donated?",
-  "crisisAreas": [ "Crisis Area 1", "Crisis Area 2", "Crisis Area 3"],
+  "crisisAreas": [ "Afghanistan", "Belarus", "Haiti",  "Iraq", "Yemen", "Libya", "Pakistan", "Somalia", "South Sudan", "Syria", "Ukraine", "Central Africa"],
   "selectionCloth": "Choose which kind of cloth you want to donate:",
   "clothCategories": ["Skirts",  "Dresses", "Jackets and Coats", "T-Shirts", "Tops", "Sweater", "Blouses and Shirts", "Trousers", "Shorts", "Overalls", "Pajamas and Lounge wear", "Socks", "Shoes", "Scarves and Shawls", "Other"],
   "clothCategoriesInvalid": "Please choose one or more cloth categories.",

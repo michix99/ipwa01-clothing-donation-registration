@@ -105,13 +105,13 @@ function DonationView() {
 
         {subview !== DonationSubPages.Overview && (
           <Row>
-            <Col xxl={4} xl={4} lg={3} md={2} sm={2} xs={1}></Col>
+            <Col xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}></Col>
             <Col xxl xl lg md sm xs>
               <DonationForm
                 isCollected={subview === DonationSubPages.FromHome}
               />
             </Col>
-            <Col xxl={4} xl={4} lg={3} md={2} sm={2} xs={1}></Col>
+            <Col xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}></Col>
           </Row>
         )}
       </Container>
