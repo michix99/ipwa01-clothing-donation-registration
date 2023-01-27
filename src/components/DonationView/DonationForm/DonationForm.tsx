@@ -1,6 +1,9 @@
 import {
+  ChangeEvent,
   ChangeEventHandler,
+  FormEvent,
   FormEventHandler,
+  ReactElement,
   useEffect,
   useState,
 } from 'react';
@@ -18,7 +21,13 @@ import FromHomeDonationControls from './FromHomeDonationControls/FromHomeDonatio
 import HelperService from '../../../services/HelperService';
 import DonationSuccessView from './DonationSuccessView/DonationSuccessView';
 
-function DonationForm(props: { isCollected: boolean }) {
+/**
+ * The component containing the form for a donation registration.
+ * @param props Contains the information if the donaton is collected from home
+ * or done in the office.
+ * @returns the ReactElement
+ */
+function DonationForm(props: { isCollected: boolean }): ReactElement {
   const { t, i18n } = useTranslation(['donationForm', 'donationView']);
   const [selectedOptions, setSelectedOptions] = useState<Array<number>>([]);
   const [options, setOptions] = useState<
@@ -35,7 +44,11 @@ function DonationForm(props: { isCollected: boolean }) {
     Record<string, { key: string }[]>
   >({});
 
+  /**
+   * Runs everytime the active language changes.
+   */
   useEffect(() => {
+    // Updates the multi selection options for the cloth categories field
     setOptions(
       (t('clothCategories', { returnObjects: true }) as string[]).map(
         (category, index) => ({
@@ -46,6 +59,10 @@ function DonationForm(props: { isCollected: boolean }) {
     );
   }, [i18n.language]);
 
+  /**
+   * Runs everytime the path changes between local donation
+   * and donation from home. Resets the form elements.
+   */
   useEffect(() => {
     setFormValid(false);
     setFormData({
@@ -56,9 +73,13 @@ function DonationForm(props: { isCollected: boolean }) {
     setValidationErrors({});
   }, [props.isCollected]);
 
+  /**
+   * EventHandler when a new crisis area was selected. Saves the selection.
+   * @param event The event containing the new value.
+   */
   const onCrisisAreaSelectChange: ChangeEventHandler<HTMLSelectElement> = (
-    event,
-  ) => {
+    event: ChangeEvent<HTMLSelectElement>,
+  ): void => {
     const name = event.target.name;
     const selectedIndex = (
       t('crisisAreas', { returnObjects: true }) as string[]
@@ -67,9 +88,13 @@ function DonationForm(props: { isCollected: boolean }) {
     resetValidationErrorForKey(name);
   };
 
+  /**
+   * Handles when the selection of cloth categories was changed and saves it.
+   * @param newValue The new value containing the selected cloth categories.
+   */
   const onClothCategoriesSelectChange = (
     newValue: MultiValue<{ value: number; label: string }>,
-  ) => {
+  ): void => {
     const newSelection = newValue.map((e) => e.value);
     setSelectedOptions(newSelection);
 
@@ -79,14 +104,27 @@ function DonationForm(props: { isCollected: boolean }) {
     resetValidationErrorForKey('clothCategories');
   };
 
-  const onControlChange: ChangeEventHandler<HTMLInputElement> = (event) => {
+  /**
+   * EventHandler when a text control was updated. Saves the new value.
+   * @param event The event containing the new value.
+   */
+  const onControlChange: ChangeEventHandler<HTMLInputElement> = (
+    event: ChangeEvent<HTMLInputElement>,
+  ): void => {
     const name = event.target.name;
     const value = event.target.value;
     setFormData({ ...formData, [name]: value });
     resetValidationErrorForKey(name);
   };
 
-  const onSubmit: FormEventHandler<HTMLFormElement> = async (event) => {
+  /**
+   * EventHandler which validates the data in the form and submits it,
+   * when there are no errors.
+   * @param event The submit event.
+   */
+  const onSubmit: FormEventHandler<HTMLFormElement> = async (
+    event: FormEvent<HTMLFormElement>,
+  ): Promise<void> => {
     event.preventDefault();
     event.stopPropagation();
 
@@ -118,9 +156,12 @@ function DonationForm(props: { isCollected: boolean }) {
 
     setValidationErrors({});
     setFormValid(true);
-    console.log(formData);
   };
 
+  /**
+   * Removes the current validation errors for a given attribute.
+   * @param key The attribute which should be reseted.
+   */
   function resetValidationErrorForKey(key: string): void {
     const copyValidationErrors = { ...validationErrors };
     delete copyValidationErrors[key];
@@ -190,6 +231,10 @@ function DonationForm(props: { isCollected: boolean }) {
             </Form.Control.Feedback>
           </Form.Group>
 
+          {/**
+           * Only show specific home donation form elements, if it is
+           * the selected option.
+           */}
           {props.isCollected && (
             <FromHomeDonationControls
               onControlChange={onControlChange}

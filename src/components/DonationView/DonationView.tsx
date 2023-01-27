@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { ReactElement, useEffect } from 'react';
 import {
   Button,
   Col,
@@ -14,10 +14,18 @@ import DonationSubPages from '../../models/DonationSubPages';
 import DonationForm from './DonationForm/DonationForm';
 import './DonationView.scss';
 
-function DonationView() {
+/**
+ * The donation view including all subviews and components.
+ * @returns the ReactElement
+ */
+function DonationView(): ReactElement {
   const { t, i18n } = useTranslation(['donationView', 'nav']);
   const { subview } = useParams();
 
+  /**
+   * Runs everytime the active language and the params of the
+   * current URL changes.
+   */
   useEffect(() => {
     let header = '';
     if (subview === DonationSubPages.Overview) {
@@ -39,6 +47,10 @@ function DonationView() {
             <Row>
               <div className="mt-3 mb-3">
                 {t('overviewText')}{' '}
+                {/**
+                 * The help icon which opens a popover containing information
+                    about different donation options.
+                 */}
                 <OverlayTrigger
                   trigger="focus"
                   placement="bottom"
@@ -103,6 +115,9 @@ function DonationView() {
           </>
         )}
 
+        {/**
+         * Renders the donation subpages once selected.
+         */}
         {subview !== DonationSubPages.Overview && (
           <Row>
             <Col xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}></Col>

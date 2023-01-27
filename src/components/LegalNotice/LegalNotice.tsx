@@ -1,10 +1,18 @@
-import { useEffect } from 'react';
+import { ReactElement, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './LegalNotice.scss';
+import location from '../../assets/officeLocation.json';
 
-function LegalNotice() {
+/**
+ * The component including all relevant legal notice information of the page.
+ * @returns the ReactElement
+ */
+function LegalNotice(): ReactElement {
   const { t, i18n } = useTranslation(['legalNotice', 'nav']);
 
+  /**
+   * Runs everytime the active language changes.
+   */
   useEffect(() => {
     document.title = `Sock Savior - ${t('legalNotice', { ns: 'nav' })}`;
   }, [i18n.language]);
@@ -14,8 +22,8 @@ function LegalNotice() {
       <h1 className="mt-3">{t('header')}</h1>
       <p>{t('informationHeader')} § 5 TMG</p>
       <p>
-        Sock Savior e. V. <br /> Musterweg
-        <br /> 12345 Musterstadt <br />{' '}
+        Sock Savior e. V. <br /> {location.street} {location.houseNumber}
+        <br /> {location.postcode} {location.city} <br />{' '}
       </p>
       <p>
         {' '}
@@ -52,9 +60,10 @@ function LegalNotice() {
         Musteraufsicht Musterstadt
         <br />
       </p>
-      <p>
+      <h5 className="mt-4">
         <strong>{t('disclaimerHeader')}: </strong>
-        <br />
+      </h5>
+      <p>
         <br />
         <strong>{t('disclaimerHeaderContent')}</strong>
         <br />
