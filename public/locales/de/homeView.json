@@ -1,0 +1,15 @@
+{
+  "title": "Willkommen bei Sock Savior!",
+  "introduction": "Wir sind ein gemeinnütziger Verein aus {{city}} und versuchen Menschen in Krisenregionen zu unterstützen. So haben wir es uns zur Aufgabe gemacht, lokale Kleiderspenden entgegen zu nehmen und an bedürftige Menschen weiter zu reichen. Das heißt wir kümmern uns nicht nur um die Organisation, sondern auch die Logistik und somit das Versenden der Spenden in die Länder.",
+  "specialHeader": "Was macht uns besonders?",
+  "specialText": "Bei uns hast du die Wahl. Du entscheidest wohin deine Spende gehen soll und welche Region du somit unterstützen möchtest.",
+  "newRegionText": "Du möchtest an ein Krisengebiet spenden, dass wir noch nicht beliefern? Dann schick uns gerne eine Mail mit dem Land und einer kurzen Begründung an:",
+  "everyDonation": "Jede Spende hilft!",
+  "whatHeader": "Was kann ich spenden?",
+  "whatText": "Wir freuen uns über jede einzelne Spende. Nicht ohne Grund haben wir unseren Namen und unser Logo gewählt. Mit jedem Kleidungsstück das an uns gespendet wird, können wir Menschen in Not helfen. Jedes Kleidungsstück, selbst Socken sind uns damit herzlich willkommen. Bitte achte hier nur auf einen guten Zustand. Die Kleidungsstücke können je nach Zielort noch eine weite Reise vor sich haben und sollten diese auch überstehen können!",
+  "howHeader": "Wie kann ich spenden?",
+  "howText": "Dafür bieten wir zwei Möglichkeiten: entweder du registrierst deine Spende online und eines unsere Sammelfahzeuge holt die Spende bei dir zuhause ab. Oder du kommst direkt in unsere Geschäftsstelle und bringst deine Kleiderspende vorbei. Unsere Adressse lautet:",
+  "goToDonationButton": "Jetzt eine Kleiderspende registrieren",
+  "whichHeader": "Welche Krisengebiete unterstützen wir aktuell mit Spenden?",
+  "createdTitle": "Erstellt mit"
+}

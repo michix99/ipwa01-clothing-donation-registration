@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './Navigation.scss';
-import logo from '../../assets/Logo_with_Green_Patches_final.svg';
-import { useState } from 'react';
+import logo from '../../assets/Logo.svg';
+import { ReactElement, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import DonationSubPages from '../../models/DonationSubPages';

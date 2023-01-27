@@ -1,0 +1,15 @@
+{
+  "title": "Welcome to Sock Savior!",
+  "introduction": "We are a nonprofit organization located at {{city}} and trying to support people in crisis regions. We made it our mission to accept local clothing donations and to pass them on to people in need. That means we take care not only of the organization, but also the logistics and sending the donations to the countries.",
+  "specialHeader": "What makes our organization special?",
+  "specialText": "You have the choice. When donating you decide where your donation should go and which region you want to support.",
+  "newRegionText": "You want to donate to a crisis area that we haven't yet supplied to? Then send us an email with the country and a brief explanation to:",
+  "everyDonation": "Every donation can help!",
+  "whatHeader": "What items can be donated?",
+  "whatText": "We are happy about every single donation. We choose our name and logo for a reason. With every piece of clothing donated, we can help people in need. Each item of clothing, even socks are very welcome. You should only make sure it is in good condition. The garments may still have a long journey ahead of them, depending on their destination and they should be able to survive them!",
+  "howHeader": "How can I donate?",
+  "howText": "We offer two options for donating: either you register your donation online and one of our collection trucks will pick up the donation at your home. Or you can come directly to our office and drop off your clothing donation. Our address is:",
+  "goToDonationButton": "Start now your cloth donation",
+  "whichHeader": "Which crisis areas are we currently supporting with donations?",
+  "createdTitle": "Created with"
+}
