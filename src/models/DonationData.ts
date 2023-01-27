@@ -1,5 +1,8 @@
 import * as yup from 'yup';
 
+/**
+ * Validation schema for a donation which at the office.
+ */
 export const donationDataSchema = yup.object({
   crisisArea: yup
     .number()

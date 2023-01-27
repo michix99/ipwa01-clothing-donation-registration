@@ -1,15 +1,27 @@
-import { ChangeEventHandler } from 'react';
+import { ChangeEvent, ChangeEventHandler, ReactElement } from 'react';
 import { Form, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import location from '../../../../assets/officeLocation.json';
 
+/**
+ * The component containing all home donation related form elements.
+ * @param props Contains the event handler to update the parent information
+ * and the validation errors coming from the parent.
+ * @returns the ReactElement
+ */
 function FromHomeDonationControls(props: {
   onControlChange: ChangeEventHandler<HTMLInputElement>;
   validationErrors: Record<string, { key: string }[]>;
-}) {
+}): ReactElement {
   const { t } = useTranslation(['donationForm']);
 
-  const handleControlChange: ChangeEventHandler<HTMLInputElement> = (event) => {
+  /**
+   * Propagates the event to the parent component, so the data can be saved.
+   * @param event The event containing the new value.
+   */
+  const handleControlChange: ChangeEventHandler<HTMLInputElement> = (
+    event: ChangeEvent<HTMLInputElement>,
+  ): void => {
     props.onControlChange(event);
   };
 
@@ -103,6 +115,9 @@ function FromHomeDonationControls(props: {
         </Form.Control.Feedback>
       </Form.Group>
 
+      {/**
+       * Show an error when the the address is not near the office.
+       */}
       {props.validationErrors.postcode?.find(
         (e) => e.key === 'addressInvalid',
       ) && (

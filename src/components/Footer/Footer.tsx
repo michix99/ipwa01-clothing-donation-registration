@@ -1,16 +1,30 @@
-import { useEffect, useState } from 'react';
+import { ReactElement, useEffect, useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { ArrowUp, Github } from 'react-bootstrap-icons';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import packageInformation from '../../../package.json';
+import { PackageInformation } from '../../models';
 import './Footer.scss';
 
-function Footer() {
-  const { t } = useTranslation('nav');
+/**
+ * The footer element of the page, shown always at the bottom.
+ * @returns the ReactElement
+ */
+function Footer(): ReactElement {
+  const { t } = useTranslation(['footer', 'nav']);
   const [topButtonDisplayed, setTopButtonDisplayed] = useState('none');
+  const packageInfo: PackageInformation = packageInformation;
 
-  useEffect(() => {
-    const onScroll = () => {
+  /**
+   * Runs on ever re-render.
+   */
+  useEffect((): void => {
+    /**
+     * Sets up a scroll handler which shows a button to scroll up everytime
+     * we scroll the page down.
+     */
+    const onScroll = (): void => {
       if (
         document.body.scrollTop > 0 ||
         document.documentElement.scrollTop > 0
@@ -23,6 +37,9 @@ function Footer() {
     window.addEventListener('scroll', onScroll);
   });
 
+  /**
+   * Scrolls to the top of the page.
+   */
   function backtoTop(): void {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -57,14 +74,15 @@ function Footer() {
                 xs
               ></Col>
               <Col xxl xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-                &copy; {new Date().getFullYear()} Copyright:
+                v{packageInfo.version} - &copy; {new Date().getFullYear()}{' '}
+                Copyright:
               </Col>
               <Col xxl="auto" xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
                 Michaela Andermann{' '}
                 <a
                   className="text-reset"
                   href="https://github.com/michix99"
-                  title="Go to GitHub profile."
+                  title={t('linkToProfile') ?? undefined}
                 >
                   <Github />
                 </a>
@@ -82,12 +100,12 @@ function Footer() {
               <Col xl={5} lg={4} md={4} sm={3} xs={2}></Col>
               <Col xl="auto" lg md sm xs>
                 <Link className="text-reset" to="legal">
-                  {t('legalNotice')}
+                  {t('legalNotice', { ns: 'nav' })}
                 </Link>
               </Col>
               <Col xl="auto" lg md sm xs>
                 <Link className="text-reset" to="license">
-                  {t('license')}
+                  {t('license', { ns: 'nav' })}
                 </Link>
               </Col>
               <Col xl={5} lg={4} md={4} sm={3} xs={2}></Col>

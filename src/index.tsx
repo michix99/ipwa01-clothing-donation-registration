@@ -11,10 +11,14 @@ import DonationView from './components/DonationView/DonationView';
 import LegalNotice from './components/LegalNotice/LegalNotice';
 import License from './components/License/License';
 
+/**
+ * Includes all routes in the application.
+ */
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    // Shown when an unknown location is reached or an error happens.
     errorElement: <ErrorView />,
     children: [
       {

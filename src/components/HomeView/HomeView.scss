@@ -1,0 +1,23 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.logo {
+  background-color: #ffc17742;
+  border-radius: 6rem;
+  padding: 0.25rem;
+  width: 15rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .logo {
+    width: 20rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .logo {
+    width: 10rem;
+    border-radius: 3rem;
+  }
+}

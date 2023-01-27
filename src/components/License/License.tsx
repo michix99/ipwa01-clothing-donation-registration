@@ -1,32 +1,27 @@
 import './License.scss';
 import licenseInformation from '../../assets/license.json';
 import packageInformation from '../../../package.json';
-import { useEffect } from 'react';
+import { ReactElement, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { LibraryInformation, PackageInformation } from '../../models';
 
-interface LibraryInformation {
-  name: string;
-  version: string;
-  description: string;
-  licenses: string;
-  publisher?: string;
-  copyright?: string;
-  licenseText?: string;
-}
-
-interface PackageInformation {
-  version: string;
-}
-
-function License() {
+/**
+ * The component including all the used libraries and der licenses.
+ * @returns the ReactElement
+ */
+function License(): ReactElement {
   const { t, i18n } = useTranslation('nav');
   const licenses: Record<string, LibraryInformation> = licenseInformation;
   const packageInfo: PackageInformation = packageInformation;
 
+  // Only include libraries which have a license
   const libraries: LibraryInformation[] = Object.values(licenses).filter(
     (e) => e.licenses !== 'UNLICENSED',
   );
 
+  /**
+   * Runs everytime the active language changes.
+   */
   useEffect(() => {
     document.title = `Sock Savior - ${t('license')}`;
   }, [i18n.language]);

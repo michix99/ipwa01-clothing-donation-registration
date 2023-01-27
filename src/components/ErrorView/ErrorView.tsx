@@ -1,11 +1,15 @@
+import { ReactElement } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { useRouteError, isRouteErrorResponse } from 'react-router-dom';
 
-function ErrorView() {
+/**
+ * The component to display an routing or application error.
+ * @returns the ReactElement
+ */
+function ErrorView(): ReactElement {
   const { t } = useTranslation('errorView');
   const error = useRouteError();
-  console.error(error);
 
   if (isRouteErrorResponse(error)) {
     return (

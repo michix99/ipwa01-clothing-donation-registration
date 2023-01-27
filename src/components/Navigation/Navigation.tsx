@@ -1,16 +1,24 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './Navigation.scss';
-import logo from '../../assets/Logo_with_Green_Patches_final.svg';
-import { useState } from 'react';
+import logo from '../../assets/Logo.svg';
+import { ReactElement, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import DonationSubPages from '../../models/DonationSubPages';
 
-function Navigation() {
+/**
+ * The navigation component which is always shown.
+ * @returns the ReactElement
+ */
+function Navigation(): ReactElement {
   const { t, i18n } = useTranslation('nav');
   const [languageKey, setLanguage] = useState(i18n.language);
 
-  const onLanguageChange = (languageKey: string | null) => {
+  /**
+   * Updates the current active language of the application.
+   * @param languageKey The string key of the new language.
+   */
+  const onLanguageChange = (languageKey: string | null): void => {
     i18n.changeLanguage(languageKey ?? undefined);
     setLanguage(languageKey ?? '');
   };
