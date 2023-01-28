@@ -12,7 +12,7 @@ import { ReactElement } from 'react';
 function App(): ReactElement {
   return (
     <>
-      {HelperService.scrollToTopAfterNavigation()}
+      <HelperService.scrollToTopAfterNavigation />
       <div className="app">
         <div className="content">
           <Navigation />

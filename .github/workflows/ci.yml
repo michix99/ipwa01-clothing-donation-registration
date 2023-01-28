@@ -1,0 +1,45 @@
+name: Continious Integration
+on: [push]
+jobs:
+  Build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Restore dependencies
+        run: npm ci
+      - name: Build for production
+        run: npm run build
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: build
+          retention-days: 5
+  Lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Restore dependencies
+        run: npm ci
+      - name: Run linter
+        run: npm run lint
+  Test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Restore dependencies
+        run: npm ci
+      - name: Run unit test
+        run: npm run test
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage
+          path: coverage
+          retention-days: 5
