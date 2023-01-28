@@ -8,7 +8,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Restore dependencies
-        run: node -v
+        run: npm ci
       - name: Build for production
         run: npm run build
       - name: Upload artifacts
