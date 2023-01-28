@@ -8,7 +8,12 @@ jest.mock('react-i18next', () => ({
 }));
 
 const tSpy = jest.fn((str) => str);
-const changeLanguageSpy = jest.fn((lng: string) => new Promise(() => {}));
+const changeLanguageSpy = jest.fn(
+  () =>
+    new Promise(() => {
+      /** Not empty */
+    }),
+);
 const useTranslationSpy = useTranslation as jest.Mock;
 
 describe('App', () => {
@@ -25,7 +30,9 @@ describe('App', () => {
   });
 
   test('renders navigation element', () => {
-    window.HTMLElement.prototype.scrollTo = function () {};
+    window.HTMLElement.prototype.scrollTo = function () {
+      /** Not empty */
+    };
 
     render(
       <BrowserRouter>
