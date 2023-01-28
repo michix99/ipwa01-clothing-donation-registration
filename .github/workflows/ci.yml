@@ -37,9 +37,7 @@ jobs:
         run: npm ci
       - name: Run unit test
         run: npm run test
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v3
         with:
-          name: coverage
-          path: coverage
-          retention-days: 5
+          directory: ./coverage
