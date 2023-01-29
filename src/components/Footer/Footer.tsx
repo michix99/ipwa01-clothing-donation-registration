@@ -25,10 +25,7 @@ function Footer(): ReactElement {
      * we scroll the page down.
      */
     const onScroll = (): void => {
-      if (
-        document.body.scrollTop > 0 ||
-        document.documentElement.scrollTop > 0
-      ) {
+      if (window.scrollY > 0) {
         setTopButtonDisplayed('block');
       } else {
         setTopButtonDisplayed('none');
@@ -41,8 +38,7 @@ function Footer(): ReactElement {
    * Scrolls to the top of the page.
    */
   function backtoTop(): void {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo(0, 0);
   }
 
   return (
@@ -56,11 +52,15 @@ function Footer(): ReactElement {
           display: topButtonDisplayed,
         }}
         onClick={backtoTop}
-        title="Back to top."
+        title={t('scrollToTop') ?? undefined}
+        data-testid="back-to-top"
       >
         <ArrowUp />
       </Button>
-      <footer className="text-center text-lg-start bg-light">
+      <footer
+        data-testid="footer"
+        className="text-center text-lg-start bg-light"
+      >
         <div id="footer-wrapper" className="text-center p-3">
           <Container>
             <Row className="copyright-row">

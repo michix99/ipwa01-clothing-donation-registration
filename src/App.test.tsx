@@ -1,45 +1,42 @@
 import { render, screen } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
-import { useTranslation } from 'react-i18next';
+import LocalizationServiceMock from './mocks/LocalizationServiceMock';
 
 jest.mock('react-i18next', () => ({
   useTranslation: jest.fn(),
 }));
 
-const tSpy = jest.fn((str) => str);
-const changeLanguageSpy = jest.fn(
-  () =>
-    new Promise(() => {
-      /** Not empty */
-    }),
-);
-const useTranslationSpy = useTranslation as jest.Mock;
-
 describe('App', () => {
   beforeEach(() => {
     jest.clearAllMocks();
 
-    useTranslationSpy.mockReturnValue({
-      t: tSpy,
+    LocalizationServiceMock.useTranslationSpy.mockReturnValue({
+      t: LocalizationServiceMock.tSpy,
       i18n: {
-        changeLanguage: changeLanguageSpy,
+        changeLanguage: LocalizationServiceMock.changeLanguageSpy,
         language: 'en',
       },
     });
   });
 
   test('renders navigation element', () => {
-    window.HTMLElement.prototype.scrollTo = function () {
+    window.scrollTo = function () {
       /** Not empty */
     };
 
-    render(
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>,
-    );
+    render(<App />, { wrapper: MemoryRouter });
     const navElement = screen.getByText(/Sock Savior/i);
     expect(navElement).toBeInTheDocument();
+  });
+
+  test('renders footer element', () => {
+    window.scrollTo = function () {
+      /** Not empty */
+    };
+
+    render(<App />, { wrapper: MemoryRouter });
+    const footerElement = screen.getByTestId('footer');
+    expect(footerElement).toBeInTheDocument();
   });
 });

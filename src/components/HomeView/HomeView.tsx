@@ -75,10 +75,10 @@ function HomeView(): ReactElement {
           <h4 className="mt-3">{t('whichHeader')}</h4>
           <p>
             {(
-              t('crisisAreas', {
+              (t('crisisAreas', {
                 returnObjects: true,
                 ns: 'donationForm',
-              }) as string[]
+              }) ?? []) as string[]
             ).join(', ')}
           </p>
           <figure className="figure">
@@ -92,7 +92,7 @@ function HomeView(): ReactElement {
               <a
                 className="text-reset"
                 href="https://www.mapchart.net/"
-                title="Go to MapChart."
+                title={t('linkTitle') ?? undefined}
               >
                 MapChart
               </a>
