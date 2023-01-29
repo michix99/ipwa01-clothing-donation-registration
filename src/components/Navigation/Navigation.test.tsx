@@ -7,7 +7,7 @@ describe('Navigation', () => {
   beforeEach(() => {
     jest.clearAllMocks();
 
-    let spy = LocalizationServiceMock.useTranslationSpy.mockReturnValue({
+    LocalizationServiceMock.useTranslationSpy.mockReturnValue({
       t: LocalizationServiceMock.tSpy,
       i18n: {
         changeLanguage: LocalizationServiceMock.changeLanguageSpy,

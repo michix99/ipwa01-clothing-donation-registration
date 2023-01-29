@@ -56,6 +56,6 @@ describe('HelperService', () => {
       </MemoryRouter>,
     );
 
-    expect(window.scrollTo).toBeCalledTimes(1);
+    expect(window.scrollTo).toHaveBeenCalledTimes(1);
   });
 });
