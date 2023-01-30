@@ -67,7 +67,8 @@
       "<rootDir>/src/index.tsx",
       "<rootDir>/src/reportWebVitals.ts",
       "<rootDir>/src/services/LocalizationService.tsx",
-      "<rootDir>/src/*/index.tsx"
+      "<rootDir>/src/*/index.ts",
+      "<rootDir>/src/models/*.ts"
     ]
 }
 }
