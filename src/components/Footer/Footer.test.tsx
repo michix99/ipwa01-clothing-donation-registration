@@ -1,11 +1,19 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { useTranslation } from 'react-i18next';
 import { MemoryRouter } from 'react-router-dom';
+import { PackageInformation } from '../../models';
 import Footer from './Footer';
 
 jest.mock('react-i18next', () => ({
   useTranslation: jest.fn(),
 }));
+
+jest.mock('../../../package.json', () => {
+  const packageVersion: PackageInformation = {
+    version: 'X.Y.Z',
+  };
+  return packageVersion;
+});
 
 describe('Footer', () => {
   const useTranslationMock = useTranslation as jest.Mock;
@@ -24,8 +32,10 @@ describe('Footer', () => {
   test('should include the footer', () => {
     render(<Footer />, { wrapper: MemoryRouter });
 
-    const footerElement = screen.getByTestId('footer');
-    expect(footerElement).toBeInTheDocument();
+    expect(screen.getByTestId('footer')).toBeInTheDocument();
+    expect(screen.getByTestId('package-version').textContent).toContain(
+      'X.Y.Z',
+    );
   });
 
   test('should scroll to top on click', () => {

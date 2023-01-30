@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { useTranslation } from 'react-i18next';
 import { MemoryRouter } from 'react-router-dom';
+import { LibraryInformation } from '../../models';
 import License from './License';
 
 jest.mock('react-i18next', () => ({
@@ -9,30 +10,31 @@ jest.mock('react-i18next', () => ({
 
 jest.mock(
   '../../assets/license.json',
-  () => ({
-    'ipwa01-clothing-donation-registration@1.0.0': {
-      licenses: 'MIT',
-      name: 'ipwa01-clothing-donation-registration',
-      version: '1.0.0',
-      description:
-        '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
-      path: 'path',
-      licenseText:
-        '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
-      copyright: 'Copyright (c) 2023',
-    },
-    'ipwa01-clothing-donation-registration-duplicate@1.0.0': {
-      licenses: 'UNLICENSED',
-      name: 'ipwa01-clothing-donation-registration-duplicate',
-      version: '1.0.0',
-      description:
-        '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
-      path: 'path',
-      licenseText:
-        '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
-      copyright: 'Copyright (c) 2023',
-    },
-  }),
+  () => {
+    const libraries: Record<string, LibraryInformation> = {
+      'ipwa01-clothing-donation-registration@1.0.0': {
+        licenses: 'MIT',
+        name: 'ipwa01-clothing-donation-registration',
+        version: '1.0.0',
+        description:
+          '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
+        licenseText:
+          '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
+        copyright: 'Copyright (c) 2023',
+      },
+      'ipwa01-clothing-donation-registration-duplicate@1.0.0': {
+        licenses: 'UNLICENSED',
+        name: 'ipwa01-clothing-donation-registration-duplicate',
+        version: '1.0.0',
+        description:
+          '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
+        licenseText:
+          '<h1 align="center">ipwa01-clothing-donation-registration</h1>',
+        copyright: 'Copyright (c) 2023',
+      },
+    };
+    return libraries;
+  },
   { virtual: true },
 );
 

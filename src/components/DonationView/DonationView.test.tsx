@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { useTranslation } from 'react-i18next';
 import { MemoryRouter, useParams } from 'react-router-dom';
+import DonationSubPages from '../../models/DonationSubPages';
 import DonationView from './DonationView';
 
 jest.mock('react-i18next', () => ({
@@ -31,7 +32,7 @@ describe('DonationView', () => {
 
   test('should render the overview sub page correctly', () => {
     useParamsSpy.mockReturnValue({
-      subview: 'overview',
+      subview: DonationSubPages.Overview,
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
@@ -42,7 +43,7 @@ describe('DonationView', () => {
 
   test('should render the donation sub page from home correctly', () => {
     useParamsSpy.mockReturnValue({
-      subview: 'fromHome',
+      subview: DonationSubPages.FromHome,
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 
@@ -53,7 +54,7 @@ describe('DonationView', () => {
 
   test('should render the donation sub page local store correctly', () => {
     useParamsSpy.mockReturnValue({
-      subview: 'local',
+      subview: DonationSubPages.Local,
     });
     render(<DonationView />, { wrapper: MemoryRouter });
 

@@ -66,7 +66,8 @@
     "coveragePathIgnorePatterns" : [
       "<rootDir>/src/index.tsx",
       "<rootDir>/src/reportWebVitals.ts",
-      "<rootDir>/src/services/LocalizationService.tsx"
+      "<rootDir>/src/services/LocalizationService.tsx",
+      "<rootDir>/src/*/index.tsx"
     ]
 }
 }

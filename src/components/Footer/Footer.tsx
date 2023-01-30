@@ -74,7 +74,15 @@ function Footer(): ReactElement {
                 sm={2}
                 xs
               ></Col>
-              <Col xxl xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
+              <Col
+                xxl
+                xl="auto"
+                lg="auto"
+                md="auto"
+                sm="auto"
+                xs="auto"
+                data-testid="package-version"
+              >
                 v{packageInfo.version} - &copy; {new Date().getFullYear()}{' '}
                 Copyright:
               </Col>
