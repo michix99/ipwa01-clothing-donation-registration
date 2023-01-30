@@ -147,8 +147,6 @@ function DonationForm(props: { isCollected: boolean }): ReactElement {
       Object.keys(firstValidationResult).length ||
       Object.keys(secondValidationResult).length
     ) {
-      console.log(firstValidationResult);
-      console.log(secondValidationResult);
       setValidationErrors({
         ...firstValidationResult,
         ...secondValidationResult,
