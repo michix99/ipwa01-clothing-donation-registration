@@ -1,6 +1,10 @@
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import { donationDataSchema, fromHomeDonationDataSchema } from '../models';
+import {
+  DonationData,
+  donationDataSchema,
+  fromHomeDonationDataSchema,
+} from '../models';
 import HelperService from './HelperService';
 
 describe('HelperService', () => {
@@ -51,6 +55,17 @@ describe('HelperService', () => {
     expect(Object.keys(errorResult).length).toBe(2);
     expect(errorResult['crisisArea'].length).toBe(1);
     expect(errorResult['clothCategories'].length).toBe(1);
+
+    errorResult = await HelperService.validateAgainstSchema(
+      donationDataSchema,
+      {
+        // missing crisis area
+        clothCategories: [1],
+      } as DonationData,
+    );
+
+    expect(Object.keys(errorResult).length).toBe(1);
+    expect(errorResult['crisisArea'].length).toBe(1);
 
     errorResult = await HelperService.validateAgainstSchema(
       fromHomeDonationDataSchema,
