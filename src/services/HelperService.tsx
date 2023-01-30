@@ -52,10 +52,7 @@ const HelperService = {
      * Runs everytime the current location changes.
      */
     useEffect(() => {
-      document.documentElement.scrollTo({
-        top: 0,
-        left: 0,
-      });
+      window.scrollTo(0, 0);
     }, [pathname]);
 
     return <></>;

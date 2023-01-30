@@ -38,7 +38,8 @@ function FromHomeDonationControls(props: {
             name="firstName"
             onChange={handleControlChange}
             isInvalid={!!props.validationErrors.firstName}
-            placeholder={t('firstNamePlaceholder') ?? undefined}
+            // will always return string, even without translation -> returns key
+            placeholder={t('firstNamePlaceholder') as string}
           />
           <Form.Control.Feedback type="invalid">
             {props.validationErrors.firstName?.map((e) => t(e.key))}
@@ -50,7 +51,8 @@ function FromHomeDonationControls(props: {
           <Form.Control
             name="lastName"
             onChange={handleControlChange}
-            placeholder={t('lastNamePlaceholder') ?? undefined}
+            // will always return string, even without translation -> returns key
+            placeholder={t('lastNamePlaceholder') as string}
             isInvalid={!!props.validationErrors.lastName}
           />
           <Form.Control.Feedback type="invalid">
@@ -65,7 +67,8 @@ function FromHomeDonationControls(props: {
           <Form.Control
             name="street"
             onChange={handleControlChange}
-            placeholder={t('adressPlaceholder') ?? undefined}
+            // will always return string, even without translation -> returns key
+            placeholder={t('adressPlaceholder') as string}
             isInvalid={!!props.validationErrors.street}
           />
           <Form.Control.Feedback type="invalid">
@@ -78,7 +81,8 @@ function FromHomeDonationControls(props: {
           <Form.Control
             name="houseNumber"
             onChange={handleControlChange}
-            placeholder={t('houseNumberPlaceholder') ?? undefined}
+            // will always return string, even without translation -> returns key
+            placeholder={t('houseNumberPlaceholder') as string}
             isInvalid={!!props.validationErrors.houseNumber}
           />
           <Form.Control.Feedback type="invalid">
@@ -92,7 +96,8 @@ function FromHomeDonationControls(props: {
         <Form.Control
           name="postcode"
           onChange={handleControlChange}
-          placeholder={t('postcodePlaceholder') ?? undefined}
+          // will always return string, even without translation -> returns key
+          placeholder={t('postcodePlaceholder') as string}
           isInvalid={!!props.validationErrors.postcode}
         />
         <Form.Control.Feedback type="invalid">
@@ -107,7 +112,8 @@ function FromHomeDonationControls(props: {
         <Form.Control
           name="city"
           onChange={handleControlChange}
-          placeholder={t('cityPlaceholder') ?? undefined}
+          // will always return string, even without translation -> returns key
+          placeholder={t('cityPlaceholder') as string}
           isInvalid={!!props.validationErrors.city}
         />
         <Form.Control.Feedback type="invalid">
@@ -121,7 +127,11 @@ function FromHomeDonationControls(props: {
       {props.validationErrors.postcode?.find(
         (e) => e.key === 'addressInvalid',
       ) && (
-        <Form.Control.Feedback type="invalid" style={{ display: 'block' }}>
+        <Form.Control.Feedback
+          type="invalid"
+          data-testid="address-feedback"
+          style={{ display: 'block' }}
+        >
           {props.validationErrors.postcode
             ?.filter((v) => v.key === 'addressInvalid')
             .map((e) => t(e.key))}{' '}

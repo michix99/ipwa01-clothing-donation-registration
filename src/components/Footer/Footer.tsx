@@ -25,10 +25,7 @@ function Footer(): ReactElement {
      * we scroll the page down.
      */
     const onScroll = (): void => {
-      if (
-        document.body.scrollTop > 0 ||
-        document.documentElement.scrollTop > 0
-      ) {
+      if (window.scrollY > 0) {
         setTopButtonDisplayed('block');
       } else {
         setTopButtonDisplayed('none');
@@ -41,8 +38,7 @@ function Footer(): ReactElement {
    * Scrolls to the top of the page.
    */
   function backtoTop(): void {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo(0, 0);
   }
 
   return (
@@ -56,11 +52,16 @@ function Footer(): ReactElement {
           display: topButtonDisplayed,
         }}
         onClick={backtoTop}
-        title="Back to top."
+        // will always return string, even without translation -> returns key
+        title={t('scrollToTop') as string}
+        data-testid="back-to-top"
       >
         <ArrowUp />
       </Button>
-      <footer className="text-center text-lg-start bg-light">
+      <footer
+        data-testid="footer"
+        className="text-center text-lg-start bg-light"
+      >
         <div id="footer-wrapper" className="text-center p-3">
           <Container>
             <Row className="copyright-row">
@@ -73,7 +74,15 @@ function Footer(): ReactElement {
                 sm={2}
                 xs
               ></Col>
-              <Col xxl xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
+              <Col
+                xxl
+                xl="auto"
+                lg="auto"
+                md="auto"
+                sm="auto"
+                xs="auto"
+                data-testid="package-version"
+              >
                 v{packageInfo.version} - &copy; {new Date().getFullYear()}{' '}
                 Copyright:
               </Col>
@@ -82,7 +91,8 @@ function Footer(): ReactElement {
                 <a
                   className="text-reset"
                   href="https://github.com/michix99"
-                  title={t('linkToProfile') ?? undefined}
+                  // will always return string, even without translation -> returns key
+                  title={t('linkToProfile') as string}
                 >
                   <Github />
                 </a>

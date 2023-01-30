@@ -182,6 +182,7 @@ function DonationForm(props: { isCollected: boolean }): ReactElement {
           validated={formValid}
           onSubmit={onSubmit}
           className="form"
+          data-testid="form"
         >
           <Form.Group className="mb-3">
             <Form.Label>{t('selectionCrisisArea')}</Form.Label>
@@ -194,6 +195,7 @@ function DonationForm(props: { isCollected: boolean }): ReactElement {
                   formData.crisisArea
                 ]
               }
+              data-testid="crisis-area-select"
             >
               {(t('crisisAreas', { returnObjects: true }) as string[]).map(
                 (area, index) => (
@@ -220,6 +222,7 @@ function DonationForm(props: { isCollected: boolean }): ReactElement {
                   return selectedOptions.includes(option.value);
                 },
               )}
+              id="cloth-category-select"
             />
             <Form.Control.Feedback
               type="invalid"

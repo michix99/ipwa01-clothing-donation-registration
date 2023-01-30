@@ -19,8 +19,8 @@ function Navigation(): ReactElement {
    * @param languageKey The string key of the new language.
    */
   const onLanguageChange = (languageKey: string | null): void => {
-    i18n.changeLanguage(languageKey ?? undefined);
-    setLanguage(languageKey ?? '');
+    i18n.changeLanguage(languageKey as string);
+    setLanguage(languageKey as string);
   };
 
   return (
@@ -65,7 +65,7 @@ function Navigation(): ReactElement {
             </NavDropdown>
           </Nav>
           <Nav activeKey={languageKey} onSelect={onLanguageChange}>
-            <Nav.Link eventKey="de" title="deutsch">
+            <Nav.Link eventKey="de" title="deutsch" data-testid="de-selection">
               DE
             </Nav.Link>
             <div className="vr bg-light d-none d-lg-block"></div>

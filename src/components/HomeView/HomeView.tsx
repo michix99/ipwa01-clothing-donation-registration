@@ -63,7 +63,8 @@ function HomeView(): ReactElement {
             <Button
               variant="success"
               type="button"
-              title={t('goToDonationButton') ?? undefined}
+              // will always return string, even without translation -> returns key
+              title={t('goToDonationButton') as string}
             >
               {t('goToDonationButton')}
             </Button>
@@ -92,7 +93,8 @@ function HomeView(): ReactElement {
               <a
                 className="text-reset"
                 href="https://www.mapchart.net/"
-                title="Go to MapChart."
+                // will always return string, even without translation -> returns key
+                title={t('linkTitle') as string}
               >
                 MapChart
               </a>

@@ -61,5 +61,14 @@
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.3"
-  }
+  },
+  "jest": {
+    "coveragePathIgnorePatterns" : [
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/services/LocalizationService.tsx",
+      "<rootDir>/src/*/index.ts",
+      "<rootDir>/src/models/*.ts"
+    ]
+}
 }
