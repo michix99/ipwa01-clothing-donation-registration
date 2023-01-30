@@ -1,20 +1,21 @@
 import { render, screen } from '@testing-library/react';
+import { useTranslation } from 'react-i18next';
 import { MemoryRouter } from 'react-router-dom';
 import App from './App';
-import LocalizationServiceMock from './mocks/LocalizationServiceMock';
 
 jest.mock('react-i18next', () => ({
   useTranslation: jest.fn(),
 }));
 
 describe('App', () => {
+  const useTranslationMock = useTranslation as jest.Mock;
+
   beforeEach(() => {
     jest.clearAllMocks();
 
-    LocalizationServiceMock.useTranslationSpy.mockReturnValue({
-      t: LocalizationServiceMock.tSpy,
+    useTranslationMock.mockReturnValue({
+      t: jest.fn((str) => str),
       i18n: {
-        changeLanguage: LocalizationServiceMock.changeLanguageSpy,
         language: 'en',
       },
     });

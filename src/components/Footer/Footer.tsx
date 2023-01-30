@@ -52,7 +52,8 @@ function Footer(): ReactElement {
           display: topButtonDisplayed,
         }}
         onClick={backtoTop}
-        title={t('scrollToTop') ?? undefined}
+        // will always return string, even without translation -> returns key
+        title={t('scrollToTop') as string}
         data-testid="back-to-top"
       >
         <ArrowUp />
@@ -82,7 +83,8 @@ function Footer(): ReactElement {
                 <a
                   className="text-reset"
                   href="https://github.com/michix99"
-                  title={t('linkToProfile') ?? undefined}
+                  // will always return string, even without translation -> returns key
+                  title={t('linkToProfile') as string}
                 >
                   <Github />
                 </a>

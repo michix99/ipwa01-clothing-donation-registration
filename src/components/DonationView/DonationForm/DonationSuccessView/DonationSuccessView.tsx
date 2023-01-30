@@ -85,7 +85,7 @@ function DonationSuccessView(props: {
         {isFromHomeDonationData(props.formData) && (
           <Row>
             <dt className="col-sm-7">{t('addressheader')}</dt>
-            <dd className="col-sm-5">
+            <dd className="col-sm-5" data-testid="submit-address">
               {props.formData.firstName} {props.formData.lastName} <br />
               {props.formData.street} {props.formData.houseNumber} <br />
               {props.formData.postcode} {props.formData.city}
@@ -93,7 +93,7 @@ function DonationSuccessView(props: {
           </Row>
         )}
       </Container>
-      <figcaption className="mt-3 blockquote-footer">
+      <figcaption className="mt-3 blockquote-footer" data-testid="submit-date">
         {t('submitDateHeader')}{' '}
         {submitDate?.toLocaleString(i18n.language === 'de' ? 'de-DE' : 'en-US')}
       </figcaption>

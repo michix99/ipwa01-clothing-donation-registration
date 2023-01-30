@@ -44,7 +44,7 @@ function DonationView(): ReactElement {
       <Container>
         {subview === DonationSubPages.Overview && (
           <>
-            <Row>
+            <Row data-testid="overview-row">
               <div className="mt-3 mb-3">
                 {t('overviewText')}{' '}
                 {/**
@@ -75,7 +75,8 @@ function DonationView(): ReactElement {
                     className="help"
                     type="button"
                     variant="light"
-                    title={t('helpPopoverHeader') ?? undefined}
+                    // will always return string, even without translation -> returns key
+                    title={t('helpPopoverHeader') as string}
                   >
                     <QuestionCircle />
                   </Button>
@@ -91,7 +92,8 @@ function DonationView(): ReactElement {
                       className="donation-option"
                       variant="success"
                       type="button"
-                      title={t('localDonationButtonTitle') ?? undefined}
+                      // will always return string, even without translation -> returns key
+                      title={t('localDonationButtonTitle') as string}
                       size="lg"
                     >
                       {t('localDonationButton')}
@@ -102,7 +104,8 @@ function DonationView(): ReactElement {
                       className="donation-option"
                       variant="success"
                       type="button"
-                      title={t('homeDonationButtonTitle') ?? undefined}
+                      // will always return string, even without translation -> returns key
+                      title={t('homeDonationButtonTitle') as string}
                       size="lg"
                     >
                       {t('homeDonationButton')}
@@ -118,8 +121,9 @@ function DonationView(): ReactElement {
         {/**
          * Renders the donation subpages once selected.
          */}
-        {subview !== DonationSubPages.Overview && (
-          <Row>
+        {(subview === DonationSubPages.Local ||
+          subview === DonationSubPages.FromHome) && (
+          <Row data-testid="donation-row">
             <Col xxl={3} xl={3} lg={3} md={2} sm={2} xs={1}></Col>
             <Col xxl xl lg md sm xs>
               <DonationForm

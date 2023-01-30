@@ -1,16 +1,23 @@
 import { fireEvent, render, screen } from '@testing-library/react';
+import { useTranslation } from 'react-i18next';
 import { MemoryRouter } from 'react-router-dom';
-import LocalizationServiceMock from '../../mocks/LocalizationServiceMock';
 import Navigation from './Navigation';
 
+jest.mock('react-i18next', () => ({
+  useTranslation: jest.fn(),
+}));
+
 describe('Navigation', () => {
+  const mockChangeLanguage = jest.fn();
+  const useTranslationMock = useTranslation as jest.Mock;
+
   beforeEach(() => {
     jest.clearAllMocks();
 
-    LocalizationServiceMock.useTranslationSpy.mockReturnValue({
-      t: LocalizationServiceMock.tSpy,
+    useTranslationMock.mockReturnValue({
+      t: jest.fn((str) => str),
       i18n: {
-        changeLanguage: LocalizationServiceMock.changeLanguageSpy,
+        changeLanguage: mockChangeLanguage,
         language: 'en',
       },
     });
@@ -30,8 +37,6 @@ describe('Navigation', () => {
 
     const languageSelection = screen.getByTestId('de-selection');
     fireEvent.click(languageSelection);
-    expect(LocalizationServiceMock.changeLanguageSpy).toHaveBeenCalledWith(
-      'de',
-    );
+    expect(mockChangeLanguage).toHaveBeenCalledWith('de');
   });
 });
