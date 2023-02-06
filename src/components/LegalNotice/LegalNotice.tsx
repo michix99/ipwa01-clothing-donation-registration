@@ -2,6 +2,7 @@ import { ReactElement, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './LegalNotice.scss';
 import location from '../../assets/officeLocation.json';
+import { Container } from 'react-bootstrap';
 
 /**
  * The component including all relevant legal notice information of the page.
@@ -63,7 +64,7 @@ function LegalNotice(): ReactElement {
       <h5 className="mt-4">
         <strong>{t('disclaimerHeader')}: </strong>
       </h5>
-      <p>
+      <Container className="mb-4">
         <br />
         <strong>{t('disclaimerHeaderContent')}</strong>
         <br />
@@ -88,7 +89,7 @@ function LegalNotice(): ReactElement {
         <br />
         {t('disclaimerPrivacyPolicy')}
         <br />
-      </p>
+      </Container>
     </>
   );
 }
